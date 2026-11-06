@@ -10,7 +10,7 @@
   <meta name="description" content="">
 
   <!-- Site Title -->
-  <title>iFILMS</title>
+  <title>About Us – Creative Production Agency | iFILMS Media</title>
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav-icon.png">
@@ -52,9 +52,11 @@
       position: relative;
       aspect-ratio: 1280 / 920;
       overflow: hidden;
-      background: #fff;
+      background: transparent;
     }
-    .recognition-certificate a { display: block; }
+    .recognition-certificate .carousel-inner,
+    .recognition-certificate .carousel-item { height: 100%; }
+    .recognition-certificate a { display: block; height: 100%; }
     .recognition-certificate img {
       display: block;
       position: absolute;
@@ -62,8 +64,30 @@
       left: 0;
       width: 100%;
       max-width: none;
+      height: 100%;
+      object-fit: contain;
+    }
+    .recognition-certificate .startup-certificate {
       height: auto;
       transform: translateY(-21.25%);
+    }
+    .certificate-controls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      margin: 12px 0 24px;
+    }
+    .certificate-controls .carousel-indicators {
+      position: static;
+      margin: 0;
+    }
+    .certificate-controls .certificate-pause {
+      color: #fff;
+      background: transparent;
+      border: 1px solid #777;
+      border-radius: 4px;
+      padding: 4px 12px;
     }
   </style>
 
@@ -123,8 +147,7 @@
               <a href="mailto:infoifilmsmediapvtltd@gmail.com">infoifilmsmediapvtltd@gmail.com</a>
             </li>
             <li>
-              <i class="flaticon-phone"></i><a href="tel:(1234)5678900">+91 84467 52571 </a>
-              <a class="d-block" href="tel:1234567890000">123-456-7890000</a>
+              <i class="flaticon-phone"></i><a href="tel:+918446752571">+91 84467 52571 </a>
             </li>
           </ul>
         </div>
@@ -134,10 +157,10 @@
           <h4 class="title">Social Icons</h4>
         </div>
         <ul>
-          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://in.linkedin.com/company/ifilms-media-productions"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://wa.me/918446752571"><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href="https://www.instagram.com/ifilms_media_productions/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com/ifilmsmp"><i class="fa-brands fa-facebook-f"></i></a></li>
         </ul>
       </div>
       <div class="contact-map">
@@ -152,65 +175,65 @@
     <nav id="main-menu">
       <ul class="list-none">
         <li>
-          <a href="index.html">Home</a>
+          <a href="index.html" title="Media Production Company in Pune | iFILMS Media">Home</a>
         </li>
         <li class="has-dropdown">
-          <a href="services.html">Our Services</a>
+          <a href="services.html" title="Media Production &amp; Creative Services | iFILMS Media">Our Services</a>
           <ul class="sub-menu">
             <!-- 1. Media Production -->
-            <li><a href="production.html">Media Production</a></li>
+            <li><a href="production.html" title="Video &amp; Film Production Company in Pune | iFILMS Media">Media Production</a></li>
 
             <!-- 2. Advertising & Branding -->
-            <li><a href="advertising.html">Advertising & Branding</a></li>
+            <li><a href="advertising.html" title="Advertising &amp; Branding Agency in Pune | iFILMS Media">Advertising & Branding</a></li>
 
             <!-- 3. Digital Marketing -->
-            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+            <li><a href="digital-marketing.html" title="Digital Marketing Agency in Pune | iFILMS Media">Digital Marketing</a></li>
 
             <!-- 4. Social Media Management -->
-            <li><a href="social-media.html">Social Media Management</a></li>
+            <li><a href="social-media.html" title="Social Media Management Company in Pune | iFILMS Media">Social Media Management</a></li>
 
             <!-- 5. Corporate Events -->
-            <li><a href="corporate.html">Corporate Events</a></li>
+            <li><a href="corporate.html" title="Corporate Event Management in Pune | iFILMS Media">Corporate Events</a></li>
 
             <!-- 6. Celebrity Talent Management -->
-            <li><a href="celebrity.html">Celebrity Talent Management</a></li>
+            <li><a href="celebrity.html" title="Celebrity &amp; Talent Management Agency | iFILMS Media">Celebrity Talent Management</a></li>
 
             <!-- 7. Other Services -->
-            <li><a href="other.html">Other Services</a></li>
+            <li><a href="other.html" title="3D Visualization &amp; Creative Services | iFILMS Media">Other Services</a></li>
           </ul>
         </li>
         <li class="has-dropdown">
-          <a href="portfolio.html">Portfolio</a>
+          <a href="portfolio.html" title="Film Production &amp; Event Portfolio | iFILMS Media">Portfolio</a>
         </li>
         <!-- <li>
-          <a href="services.html">Our Services</a>
+          <a href="services.html" title="Media Production &amp; Creative Services | iFILMS Media">Our Services</a>
         </li> -->
         <li class="has-dropdown">
-          <a href="services.html">Our Services</a>
+          <a href="services.html" title="Media Production &amp; Creative Services | iFILMS Media">Our Services</a>
           <ul class="sub-menu">
             <!-- 1. Media Production -->
-            <li><a href="production.html">Media Production</a></li>
+            <li><a href="production.html" title="Video &amp; Film Production Company in Pune | iFILMS Media">Media Production</a></li>
 
             <!-- 2. Advertising & Branding -->
-            <li><a href="advertising.html">Advertising & Branding</a></li>
+            <li><a href="advertising.html" title="Advertising &amp; Branding Agency in Pune | iFILMS Media">Advertising & Branding</a></li>
 
             <!-- 3. Digital Marketing -->
-            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+            <li><a href="digital-marketing.html" title="Digital Marketing Agency in Pune | iFILMS Media">Digital Marketing</a></li>
 
             <!-- 4. Social Media Management -->
-            <li><a href="social-media.html">Social Media Management</a></li>
+            <li><a href="social-media.html" title="Social Media Management Company in Pune | iFILMS Media">Social Media Management</a></li>
 
             <!-- 5. Corporate Events -->
-            <li><a href="corporate.html">Corporate Events</a></li>
+            <li><a href="corporate.html" title="Corporate Event Management in Pune | iFILMS Media">Corporate Events</a></li>
 
             <!-- 6. Celebrity Talent Management -->
-            <li><a href="celebrity.html">Celebrity Talent Management</a></li>
+            <li><a href="celebrity.html" title="Celebrity &amp; Talent Management Agency | iFILMS Media">Celebrity Talent Management</a></li>
 
             <!-- 7. Other Services -->
-            <li><a href="other.html">Other Services</a></li>
+            <li><a href="other.html" title="3D Visualization &amp; Creative Services | iFILMS Media">Other Services</a></li>
           </ul>
         </li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" title="Contact iFILMS Media | Creative Agency in Pune">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -228,7 +251,7 @@
                 <div class="header-inner">
                   <div class="header-left">
                     <div class="logo">
-                      <a href="index.html"><img src="assets/images/logo.png" style="width: 180px;" alt="logo"></a>
+                      <a href="index.html" title="Media Production Company in Pune | iFILMS Media"><img src="assets/images/logo.png" style="width: 180px;" alt="logo"></a>
                     </div>
                     <div class="menu-icon">
                       <a class="canva_expander nav-menu-link menu-button style-2" href="#"><i
@@ -239,47 +262,47 @@
                     <nav id="main-menus">
                       <ul class="list-none">
                         <li>
-                          <a href="index.html">Home</a>
+                          <a href="index.html" title="Media Production Company in Pune | iFILMS Media">Home</a>
                         </li>
                         <li>
-                          <a href="about.html">About</a>
+                          <a href="about.html" title="About Us – Creative Production Agency | iFILMS Media">About</a>
                         </li>
                         <li>
-                          <a href="portfolio.html">Portfolio</a>
+                          <a href="portfolio.html" title="Film Production &amp; Event Portfolio | iFILMS Media">Portfolio</a>
                         </li>
                         <li class="has-dropdown">
-                          <a href="services.html">Our Services</a>
+                          <a href="services.html" title="Media Production &amp; Creative Services | iFILMS Media">Our Services</a>
                           <ul class="sub-menu">
                             <!-- 1. Media Production -->
-                            <li><a href="production.html">Media Production</a></li>
+                            <li><a href="production.html" title="Video &amp; Film Production Company in Pune | iFILMS Media">Media Production</a></li>
 
                             <!-- 2. Advertising & Branding -->
-                            <li><a href="advertising.html">Advertising & Branding</a></li>
+                            <li><a href="advertising.html" title="Advertising &amp; Branding Agency in Pune | iFILMS Media">Advertising & Branding</a></li>
 
                             <!-- 3. Digital Marketing -->
-                            <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                            <li><a href="digital-marketing.html" title="Digital Marketing Agency in Pune | iFILMS Media">Digital Marketing</a></li>
 
                             <!-- 4. Social Media Management -->
-                            <li><a href="social-media.html">Social Media Management</a></li>
+                            <li><a href="social-media.html" title="Social Media Management Company in Pune | iFILMS Media">Social Media Management</a></li>
 
                             <!-- 5. Corporate Events -->
-                            <li><a href="corporate.html">Corporate Events</a></li>
+                            <li><a href="corporate.html" title="Corporate Event Management in Pune | iFILMS Media">Corporate Events</a></li>
 
                             <!-- 6. Celebrity Talent Management -->
-                            <li><a href="celebrity.html">Celebrity Talent Management</a></li>
+                            <li><a href="celebrity.html" title="Celebrity &amp; Talent Management Agency | iFILMS Media">Celebrity Talent Management</a></li>
 
                             <!-- 7. Other Services -->
-                            <li><a href="other.html">Other Services</a></li>
+                            <li><a href="other.html" title="3D Visualization &amp; Creative Services | iFILMS Media">Other Services</a></li>
                           </ul>
                         </li>
                         <li>
-                          <a href="career.html">Careers</a>
+                          <a href="career.html" title="Media Production &amp; Creative Careers | iFILMS Media">Careers</a>
                         </li>
                       </ul>
                     </nav>
                   </div>
                   <div class="header-right">
-                    <a href="contact.html" class="vw-btn-primary"><i class="icon-arrow-right"></i> Get In Touch</a>
+                    <a href="contact.html" class="vw-btn-primary" title="Contact iFILMS Media | Creative Agency in Pune"><i class="icon-arrow-right"></i> Get In Touch</a>
                   </div>
                 </div>
               </div>
@@ -314,10 +337,38 @@
                 <div class="page-banner-title">
                   <!-- <h2 class="page-banner-heading">WELCOME! WE ARE <br /> <span>iFILMS MEDIA PRODUCTIONS</span></h2> -->
                 </div>
-                <div class="page-banner-img recognition-certificate" id="recognition-certificate">
-                  <a href="assets/images/about/startup-recognition-certificate.jpeg" target="_blank" rel="noopener" aria-label="Open full certificate of recognition">
-                    <img src="assets/images/about/startup-recognition-certificate.jpeg" alt="DPIIT Startup India Certificate of Recognition for iFilms Media Production Private Limited">
-                  </a>
+                <div class="page-banner-img recognition-certificate carousel slide" id="recognition-certificate" data-bs-interval="false" aria-label="Certificates and awards" aria-roledescription="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" role="group" aria-label="1 of 4">
+                      <a href="assets/images/about/startup-recognition-certificate.jpeg" target="_blank" rel="noopener" aria-label="Open full certificate of recognition">
+                        <img class="startup-certificate" src="assets/images/about/startup-recognition-certificate.jpeg" alt="DPIIT Startup India Certificate of Recognition for iFilms Media Production Private Limited">
+                      </a>
+                    </div>
+                    <div class="carousel-item" role="group" aria-label="2 of 4">
+                      <a href="assets/images/about/bni-infinity-award.jpg" target="_blank" rel="noopener">
+                        <img src="assets/images/about/bni-infinity-award.jpg" alt="iFilms BNI Infinity Award 2026 recognition">
+                      </a>
+                    </div>
+                    <div class="carousel-item" role="group" aria-label="3 of 4">
+                      <a href="assets/images/about/wte-best-event-award.jpg" target="_blank" rel="noopener">
+                        <img src="assets/images/about/wte-best-event-award.jpg" alt="iFilms Best Event Award 2026 by WTE">
+                      </a>
+                    </div>
+                    <div class="carousel-item" role="group" aria-label="4 of 4">
+                      <a href="assets/images/about/msme-excellence-award.jpg" target="_blank" rel="noopener">
+                        <img src="assets/images/about/msme-excellence-award.jpg" alt="iFilms MSME Excellence Award 2026 certificate">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="certificate-controls">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#recognition-certificate" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Certificate of Recognition"></button>
+                    <button type="button" data-bs-target="#recognition-certificate" data-bs-slide-to="1" aria-label="BNI Infinity Award"></button>
+                    <button type="button" data-bs-target="#recognition-certificate" data-bs-slide-to="2" aria-label="WTE Best Event Award"></button>
+                    <button type="button" data-bs-target="#recognition-certificate" data-bs-slide-to="3" aria-label="MSME Excellence Award"></button>
+                  </div>
+                  <button type="button" class="certificate-pause" aria-pressed="false">Pause slideshow</button>
                 </div>
               </div>
             </div>
@@ -403,7 +454,7 @@
                 <div class="col-lg-4 col-md-4 col-12">
                   <div class="team-single">
                     <div class="team-thumb">
-                      <img src="assets/images/team/23.jpg" alt="Shubham Manmode">
+                      <img src="assets/images/team/shubham-manmode.jpeg" alt="Shubham Manmode">
                     </div>
                     <div class="team-bio">
                       <h5 class="team-member-designation">Founder & CEO</h5>
@@ -451,6 +502,94 @@
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="khushboo-kuril">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/khushboo-kuril.jpeg" alt="Khushboo Kuril">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Senior Graphic Designer</h5>
+                      <h4 class="team-member-name">Khushboo Kuril</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="rucha-reddy">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/rucha-reddy.jpeg" alt="Rucha Reddy">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Strategist and Marketing Head</h5>
+                      <h4 class="team-member-name">Rucha Reddy</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="shashikant-karande">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/shashikant-karande.jpeg" alt="Shashikant Ramchandra Karande">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Accounts and Admin</h5>
+                      <h4 class="team-member-name">Shashikant Ramchandra Karande</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="pravin-yelamkar">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/pravin-yelamkar.jpeg" alt="Pravin Yelamkar">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Graphic Designer</h5>
+                      <h4 class="team-member-name">Pravin Yelamkar</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="pranali-remje">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/pranali-deepak-remje.jpeg" alt="Pranali Deepak Remje">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Social Media Manager</h5>
+                      <h4 class="team-member-name">Pranali Deepak Remje</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="akash-sandalwar">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/akash-sandalwar.jpeg" alt="Akash Sandalwar">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">AI UIUX Designer</h5>
+                      <h4 class="team-member-name">Akash Sandalwar</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/14.webp" alt="Amar Gaikwad">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Chauffeur</h5>
+                      <h4 class="team-member-name">Amar Gaikwad</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="team-single" id="vicky-govardhane">
+                    <div class="team-thumb">
+                      <img src="assets/images/team/vicky-govardhane.jpeg" alt="Vicky Govardhane">
+                    </div>
+                    <div class="team-bio">
+                      <h5 class="team-member-designation">Junior Video Editor</h5>
+                      <h4 class="team-member-name">Vicky Govardhane</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
                   <div class="team-single">
                     <div class="team-thumb">
                       <img src="assets/images/team/12-1.webp" alt="Mayur Waghmare">
@@ -469,94 +608,6 @@
                     <div class="team-bio">
                       <h5 class="team-member-designation">Drone Pilot</h5>
                       <h4 class="team-member-name">Nachiket Gade</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/14.webp" alt="Amar Gaikwad">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Chauffeur</h5>
-                      <h4 class="team-member-name">Amar Gaikwad</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="pranali-remje">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/pranali-deepak-remje.jpeg" alt="Pranali Deepak Remje">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Social Media Manager</h5>
-                      <h4 class="team-member-name">Pranali Deepak Remje</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="khushboo-kuril">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/khushboo-kuril.jpeg" alt="Khushboo Kuril">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Senior Graphic Designer</h5>
-                      <h4 class="team-member-name">Khushboo Kuril</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="vicky-govardhane">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/vicky-govardhane.jpeg" alt="Vicky Govardhane">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Junior Video Editor</h5>
-                      <h4 class="team-member-name">Vicky Govardhane</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="shashikant-karande">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/shashikant-karande.jpeg" alt="Shashikant Ramchandra Karande">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Accounts and Admin</h5>
-                      <h4 class="team-member-name">Shashikant Ramchandra Karande</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="rucha-reddy">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/rucha-reddy.jpeg" alt="Rucha Reddy">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Strategist and Marketing Head</h5>
-                      <h4 class="team-member-name">Rucha Reddy</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="akash-sandalwar">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/akash-sandalwar.jpeg" alt="Akash Sandalwar">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">AI UIUX Designer</h5>
-                      <h4 class="team-member-name">Akash Sandalwar</h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="team-single" id="pravin-yelamkar">
-                    <div class="team-thumb">
-                      <img src="assets/images/team/pravin-yelamkar.jpeg" alt="Pravin Yelamkar">
-                    </div>
-                    <div class="team-bio">
-                      <h5 class="team-member-designation">Graphic Designer</h5>
-                      <h4 class="team-member-name">Pravin Yelamkar</h4>
                     </div>
                   </div>
                 </div>
@@ -1232,6 +1283,31 @@
   <script src="assets/js/jquery-3.7.1.min.js"></script>
   <script src="assets/js/jquery-migrate-3.5.0.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (() => {
+      const element = document.getElementById('recognition-certificate');
+      const carousel = bootstrap.Carousel.getOrCreateInstance(element, { interval: false });
+      const pause = document.querySelector('.certificate-pause');
+      pause.addEventListener('click', () => {
+        const paused = pause.getAttribute('aria-pressed') !== 'true';
+        pause.setAttribute('aria-pressed', String(paused));
+        pause.textContent = paused ? 'Resume slideshow' : 'Pause slideshow';
+      });
+      const indicators = document.querySelectorAll('.certificate-controls [data-bs-slide-to]');
+      element.addEventListener('slide.bs.carousel', event => {
+        indicators.forEach((button, index) => {
+          button.classList.toggle('active', index === event.to);
+          if (index === event.to) button.setAttribute('aria-current', 'true');
+          else button.removeAttribute('aria-current');
+        });
+      });
+      window.setInterval(() => {
+        if (pause.getAttribute('aria-pressed') === 'true' || document.hidden ||
+            element.matches(':hover, :focus-within')) return;
+        carousel.next();
+      }, 5000);
+    })();
+  </script>
   <script src="assets/js/appear.min.js"></script>
   <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/meanmenu.js"></script>
