@@ -169,7 +169,22 @@ var swiper = new Swiper('.hero-slider2', {
   }
 });
 
-const portfolio = new Swiper(".portfolio-slider", {
+// Make every client logo accessible within the existing Home page carousel.
+if (document.querySelector('.clients-swiper')) {
+  new Swiper('.clients-swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    loop: true,
+    speed: 700,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+  });
+}
+
+const portfolio = new Swiper(".portfolio-slider:not([data-custom-slider])", {
   loop: true,
   parallax: true,
   slidesPerView: 2,
